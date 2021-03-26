@@ -80,7 +80,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                                 Swal.fire('Aku Tunggu', '', '').then(function () {
                                     const {
                                       value: text
-                                    } = Swal.fire({
+                                    } = await Swal.fire({
                                       input: 'textarea',
                                       inputLabel: 'Deskripsikan Seorang Rezqy',
                                       inputPlaceholder: 'Type your message here...',
